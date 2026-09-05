@@ -1,0 +1,33 @@
+# Conda environment for CIV555: ML & AI for Civil Engineering.
+
+
+name: CIV555
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+
+  # Notebook workflow
+  - notebook
+  - ipykernel
+  - ipywidgets
+
+  # Core scientific Python stack
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - imbalanced-learn
+  - statsmodels
+  - requests
+
+  # Visualization
+  - matplotlib
+  - seaborn
+  - plotly
+
+  # Neural networks and computer vision notebooks
+  - pytorch
+  - torchvision
+  - pillow
